@@ -44,21 +44,21 @@ img {
   height: 100vh;
 }
 
-.counter-div {
+.container-div {
   width: 40rem;
   border: 1px solid var(--grey);
   padding: 1rem;
-  background-color: var(--light-blue);
+  background-color: var(--black);
   color: var(--white);
   text-align: center;
   border-radius: 5px;
 }
 
-.counter-div > * {
+.container-div > * {
   margin-bottom: 2rem;
 }
 
-.count {
+.border {
   font-size: 4rem;
   border: 1px solid var(--white);
   padding: 0 1rem-;
@@ -74,15 +74,4 @@ img {
   outline: none;
   border-radius: 3px;
   cursor: pointer;
-}
-
-button.subtract {
-  background-color: orangered;
-}
-button.reset {
-  background-color: var(--white);
-  color: var(--black);
-}
-button.add {
-  background-color: green;
 }
